@@ -60,6 +60,7 @@ module.exports = (resolve, rootDir) => {
     "watchPathIgnorePatterns",
     "moduleNameMapper",
     "testSequencer",
+    "preset"
   ];
   if (overrides) {
     supportedKeys.forEach(key => {
